@@ -26,7 +26,7 @@ public class Flights {
 		WebElement departbutton = driver.findElement(By.xpath("//*[@aria-label='Friday, August 30, 2024']"));
 		Actions action = new Actions(driver);//Actions class object used because it is iframe.
 		action.moveToElement(departbutton).click().build().perform();
-		
+
 		
 
 	}
